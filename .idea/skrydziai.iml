@@ -133,6 +133,11 @@
       <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/nette/utils" />
       <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/nette/schema" />
       <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/phpstan/phpstan" />
+      <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/laravel/fortify" />
+      <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/dasprid/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/pragmarx/google2fa" />
+      <excludeFolder url="file://$MODULE_DIR$/aplikacija/vendor/bacon/bacon-qr-code" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

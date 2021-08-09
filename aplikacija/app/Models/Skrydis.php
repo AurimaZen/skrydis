@@ -19,16 +19,18 @@ use App\Filters\SkrydisFilter;
 class Skrydis extends Model
 {
     use HasFactory;
+
     protected $table = 'skrydis';
     protected $guarded = [];
-    public const STATE_NEW ='naujas';
-    public const STATE_REGISTERED ='uzregistruotas';
-    public const STATE_DONE ='ivykdytas';
+    public const STATE_NEW = 'naujas';
+    public const STATE_REGISTERED = 'uzregistruotas';
+    public const STATE_DONE = 'ivykdytas';
     public const STATES = [
-      self::STATE_NEW,
-      self::STATE_REGISTERED,
-      self::STATE_DONE,
+        self::STATE_NEW,
+        self::STATE_REGISTERED,
+        self::STATE_DONE,
     ];
+
     public function scopeFilter(Builder $builder, $request)
     {
         return (new SkrydisFilter($request))->filter($builder);

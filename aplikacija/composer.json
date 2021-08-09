@@ -7,14 +7,15 @@
     "require": {
         "php": "8.0.7",
         "fideloper/proxy": "^4.4",
+        "friendsofphp/php-cs-fixer": "3.*",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/fortify": "^1.7",
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
-        "phpmd/phpmd" : "@stable",
-        "squizlabs/php_codesniffer": "3.*",
-        "friendsofphp/php-cs-fixer": "3.*",
-        "phpstan/phpstan": "0.12.*"
+        "phpmd/phpmd": "@stable",
+        "phpstan/phpstan": "0.12.*",
+        "squizlabs/php_codesniffer": "3.*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

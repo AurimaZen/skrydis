@@ -3,7 +3,7 @@
 @section('content')
 
     <a href="{{ route('skrydis.show', $id ?? '')  }}">
-        {{ $vardas ?? '' }}  - [{{$pastas ?? ''}}] - {{$telefonas ?? ''}} - {{$vieta ?? ''}}
+        {{ $vardas ?? '' }} - [{{$pastas ?? ''}}] - {{$telefonas ?? ''}} - {{$vieta ?? ''}}
         - {{$laikas ?? ''}} - {{$busena ?? ''}}
     </a>
     <a href="{{ route('skrydis.edit', $id ?? '')  }}">

@@ -65,21 +65,21 @@ class FlyLocationDateController extends Controller
      */
     public function edit(FlyLocationDate $flyLocationdate)
     {
-        return view('flylocationdate.edit', ['flylocationdate' => $flyLocationdate] );
+        return view('flylocationdate.edit', ['flylocationdate' => $flyLocationdate]);
     }
 
 
     public function update(Request $request, FlyLocationDate $flylocationdate)
-        {
+    {
 
         $flylocationdate->update($request->toArray());
-        return redirect()->route('flylocationdate.index', '' );
+        return redirect()->route('flylocationdate.index', '');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\FlyLocationDate  $flylocationdate
+     * @param \App\Models\FlyLocationDate $flylocationdate
      * @return Response
      */
     public function destroy(FlyLocationDate $flylocationdate)
@@ -87,10 +87,11 @@ class FlyLocationDateController extends Controller
         $flylocationdate->delete();
         return redirect()->route('flylocationdate.index');
     }
+
     public function list()
     {
         $list = FlyLocationDate::all();
-        return view('customerregistration', ['list'=>$list]);
+        return view('customerregistration', ['list' => $list]);
     }
 
 }

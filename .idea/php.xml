@@ -127,6 +127,11 @@
       <path value="$PROJECT_DIR$/aplikacija/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/aplikacija/vendor/nette/schema" />
       <path value="$PROJECT_DIR$/aplikacija/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/aplikacija/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/aplikacija/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/aplikacija/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/aplikacija/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/aplikacija/vendor/bacon/bacon-qr-code" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

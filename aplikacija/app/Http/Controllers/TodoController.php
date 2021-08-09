@@ -33,7 +33,8 @@ class TodoController extends Controller
     public function edit(TodoItem $todoItem)
     {
         return view('todo-edit', $todoItem);
-}
+    }
+
     public function done(TodoItem $todoItem)
     {
         $todoItem->update(['status' => TodoItem::STATE_DONE]);

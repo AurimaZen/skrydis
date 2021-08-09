@@ -112,12 +112,10 @@ class SkrydisController extends Controller
      *
      * @param \Illuminate\Http\Request $request
      * @param \App\Models\Skrydis $skrydis
-     * @param \App\Models\FlyLocationDate $flyLocationDate
      * @return Response
      */
     public function skrydisUpdate(Request $request, Skrydis $skrydi)
     {
-        //$list = FlyLocationDate::all();
         $dataLaikas = explode('|', $request->get('vietos'));
 
         $laikas = $dataLaikas[0];
@@ -131,12 +129,7 @@ class SkrydisController extends Controller
             'busena' => 'uzregistruotas',
         ]);
         $skrydi->save();
-        //if ($list) {
-        //    $list->delete([
-        //        'vieta' => $vieta,
-        //        'laikas' => $laikas,
-        //    ]);
-       // }
+
         return redirect()->route('registration.update', '/');
     }
 

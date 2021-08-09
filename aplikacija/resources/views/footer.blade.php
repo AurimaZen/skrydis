@@ -6,17 +6,18 @@
         <div class="footer-column">
             <h4>Svarbios nuorodos</h4>
             <ul>
-                <li><a href="http://localhost/phpakademija/skrydziai/aplikacija/public/skrydis">Skrydžių administravimas</a></li>
-                <li><a href="#">Vartotojo registracijos langas</a></li>
-                <li><a href="http://localhost/phpakademija/skrydziai/aplikacija/public/login">Admino registracijos langas</a></li>
+                <li><a href="http://localhost/phpakademija/skrydziai/aplikacija/public/login">Skrydžių
+                        administravimas</a></li>
+                <li><a href="http://localhost/phpakademija/skrydziai/aplikacija/public/flylocationdate">Skrydžio vieta
+                        ir laikas</a></li>
             </ul>
         </div>
-        <div class="footer-column">
-            <h4>Svarbios nuorodos</h4>
+        <div class="footer-column"><h4>Svarbios nuorodos</h4>
             <ul>
-                <li><a href="#">Registracija skrydžiui</a></li>
-                <li><a href="#">Registracijos keitimas</a></li>
-                <li><a href="http://localhost/phpakademija/skrydziai/aplikacija/public/flylocationdate">Skrydziu ir laiku ivedimo langas</a></li>
+                <li><a href="http://localhost/phpakademija/skrydziai/aplikacija/public/couponForm">Vartotojo
+                        registracijos langas</a></li>
+                <li><a href="http://localhost/phpakademija/skrydziai/aplikacija/public/skrydis">Admino skrydziu
+                        valdymas</a></li>
             </ul>
         </div>
     </div>

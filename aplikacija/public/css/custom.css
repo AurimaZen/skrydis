@@ -2,49 +2,60 @@
     font-family: Questrial-Regular;
     src: url(Questrial-Regular.ttf);
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
 }
-h1{
+
+h1 {
     font-family: Questrial-Regular;
     font-weight: 600;
     font-size: 20px;
     color: #00458B;
-    text-align:center
+    text-align: center
 }
-h3{
+
+h3 {
     font-family: Questrial-Regular;
     font-weight: 600;
     font-size: 20px;
     color: #00458B;
 }
-.topline{
+
+.topline {
     background-color: #99DDFF;
     height: 26px;
 }
-.topline .svg-inline--fa{
-    padding:0 10px;
-    color:#00458B;
+
+.topline .svg-inline--fa {
+    padding: 0 10px;
+    color: #00458B;
     position: relative;
     top: 4px;
 }
-.right-content{
+
+.right-content {
     float: right;
     margin-right: 150px;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: center;
-    margin: 0 auto;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-.navbar-nav{
+
+.navbar-nav {
     display: flex;
 }
-.navbar-nav li{
+
+.navbar-nav li {
     list-style: none;
     padding: 0 15px;
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
     text-decoration: none;
     font-family: Questrial-Regular;
     text-transform: uppercase;
@@ -52,19 +63,22 @@ h3{
     font-size: 16px;
     color: #00458B;
 }
-.topline .btn{
-    border:none;
-    background-color:#3FD2C7;
+
+.topline .btn {
+    border: none;
+    background-color: #3FD2C7;
     font-family: Questrial-Regular;
     color: #00458B;
     padding: 5px 5px 5px 10px;
     top: 2px;
     position: relative;
 }
-.btn .svg-inline--fa{
-    top:1px;
+
+.btn .svg-inline--fa {
+    top: 1px;
 }
-.btn{
+
+.btn {
     border: none;
     background-color: #3FD2C7;
     font-family: Questrial-Regular;
@@ -74,94 +88,121 @@ h3{
     font-weight: 600;
     text-decoration: none;
     font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
-.btn:hover{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+.btn:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.logo img{
-    height:50px;
+
+.logo img {
+    height: 50px;
 }
 
 /*PREKE*/
-.preke-inner{
-    display:flex;
-}
-.main-content{
-    width:70%;
-    margin:80px auto;
-    display: block;
-    position: relative;
-}
-.main-content .col-md-6{
-    width:50%;
+.preke-inner {
+    display: flex;
 }
 
-.item h2{
+.main-content {
+    width: 70%;
+    margin: 80px auto;
+    display: block;
+    position: relative;
+    display: flow-root;
+}
+
+.main-content .col-md-6 {
+    width: 50%;
+}
+
+.item h2 {
     font-family: Questrial-Regular;
     color: #00458B;
 }
-.price{
+
+.price {
     font-family: Questrial-Regular;
-    font-size:30px;
-    font-weight:600;
+    font-size: 30px;
+    font-weight: 600;
 }
+
 /*forma*/
-.item{
-    width:27%;
-    float:left;
-    padding:20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.item {
+    width: 27%;
+    float: left;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     margin: 20px;
+    height: 640px;
 }
-.item:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+.item:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.item img{
-    width:100%;
+
+.item img {
+    width: 100%;
 }
+
+.item .mygtukas {
+    padding: 10px 35px;
+}
+
+.item a {
+    text-decoration: none;
+}
+
 .prekes-forma input[type=text],
 .prekes-forma input[type=number],
 .prekes-forma input[type=email],
-.prekes-forma select{
+.prekes-forma select {
     border: solid 1px #3fd2c7;
     padding: 10px;
     margin-bottom: 15px;
     font-family: Questrial-Regular;
 }
+
 .prekes-forma input[type=text],
 .prekes-forma input[type=number],
-.prekes-forma input[type=email]{
-    width:100%;
+.prekes-forma input[type=email] {
+    width: 100%;
 }
-.prekes-forma select{
-    width:103.5%;
+
+.prekes-forma select {
+    width: 103.5%;
 }
+
 select {
     background-color: #c4f1ee;
 }
-.features{
-    display:flex;
-    margin-top: 80px;
-}
-.features-column{
-    width:30%;
 
+.features {
+    display: flex;
+    margin-top: 19px;
+    justify-content: center;
 }
-.features-column img{
+
+.features-column {
+    width: 25%;
+}
+
+.features-column img {
     background-image: linear-gradient(to bottom right, #99ddff, #3fd2c7);
     border-radius: 100%;
     height: 105px;
     margin: 0 auto;
     display: block;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
-.features-column img:hover{
+
+.features-column img:hover {
     background-image: linear-gradient(to bottom right, #3fd2c7, #99ddff);
 }
-.features-column p{
+
+.features-column p {
     font-family: Questrial-Regular;
     width: 75%;
     margin: 10px auto;
@@ -169,79 +210,106 @@ select {
     color: #00458B;
     font-weight: 600;
 }
-p{
+
+li,
+p {
     font-family: Questrial-Regular;
     color: #00458B;
 }
-h4{
+
+h4 {
     font-family: Questrial-Regular;
     color: #3FD2C7;
-    font-size:20px;
+    font-size: 20px;
 }
+
 .mygtukas {
     border: none;
     background-color: #3FD2C7;
     font-family: Questrial-Regular;
     color: #00458B;
-    padding: 7px 25px;
-    text-transform:uppercase;
-    font-weight:600;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
     font-size: 13px;
+    min-height: 28px;
+    line-height: 28px;
 }
-.kodas{
+
+.kodas {
     font-family: Questrial-Regular;
     color: #00458B;
     background-color: #99DDFF;
-    padding:3px 10px;
+    padding: 3px 10px;
 }
-.thankyou{
-    width:30%;
+
+.thankyou {
+    width: 32%;
     min-height: 55vh;
 }
-/*footer*/
-.bottomline p{
-    margin:0;
+
+.thankyou .btn {
+    margin-left: 15px;
 }
-.bottomline{
+
+.buttons {
+    display: flex;
+}
+
+/*footer*/
+.bottomline p {
+    margin: 0;
+}
+
+.bottomline {
     background-color: #99DDFF;
-    padding:3px;
-    display:flex;
+    padding: 3px;
+    display: flex;
     justify-content: center;
     width: 100%;
 }
+
 .bottomline .svg-inline--fa {
     padding: 0 10px;
     color: #00458B;
 }
-.footer-column{
-    width:33%;
-    float:left;
+
+.footer-column {
+    width: 33%;
+    float: left;
 }
-.footer-inner{
-    width:75%;
+
+.footer-inner {
+    width: 75%;
     margin: 0 auto;
 }
-.footer{
+
+.footer {
     background-color: #3b70a6;
     display: block;
     height: 150px;
 }
-.footer li a{
+
+.footer li a {
     text-decoration: none;
     font-family: Questrial-Regular;
     font-size: 15px;
     color: #99DDFF;
     line-height: 18px;
 }
-li{
+
+li {
     list-style: none;
 }
+
 ul {
     padding-inline-start: 0px;
 }
+
 .footer-column .logo img {
     margin-top: 20px;
 }
+
 /*zemelapis*/
 #map {
     height: 400px;
@@ -254,16 +322,20 @@ ul {
     top: 30px;
     left: 8%;
 }
-.admin-panel a{
-    text-decoration:none;
+
+.admin-panel a {
+    text-decoration: none;
 }
+
 .vardas {
-    width: 200px!important;
+    width: 200px !important;
 }
-.spankodas{
-   width:90px!important;
+
+.spankodas {
+    width: 90px !important;
 }
-.admin-panel span{
+
+.admin-panel span {
     padding: 5px 20px;
     display: inline-block;
     vertical-align: middle;
@@ -272,41 +344,56 @@ ul {
     color: #00458b;
     line-height: 18px;
     font-weight: 500;
-    width:140px;
+    width: 150px;
 }
-.admin-panel{
+
+.admin-panel {
     width: 90%;
     margin: 0 auto;
     display: block;
     background-color: #d6f5f3;
 }
+
 form {
     margin-block-end: 0;
 }
-.line{
+
+.line {
     display: flex;
     border-bottom: solid 1px #00458b;
 }
-.istrinti{
+
+.istrinti {
     background-color: #f16c79;
     position: absolute;
-    right:5%;
+    right: 5%;
 }
+
 .datalaikas .redaguoti {
-    position:absolute;
-    right: 18%!important;
+    position: absolute;
+    right: 18% !important;
 }
-.redaguoti{
-    position:absolute;
-    right:12.5%;
+
+.redaguoti {
+    position: absolute;
+    right: 12.5%;
 }
-.sukurti{
+
+.sukurti {
     text-decoration: none;
     position: relative;
     top: -35px;
+    padding: 7px 47px;
 }
-.edit-span{
-    display:grid;
+
+.filters-row {
+    text-align: right;
+    width: 95%;
+    margin-bottom: 6px;
+}
+
+.edit-span {
+    display: grid;
     padding: 5px 20px;
     vertical-align: middle;
     font-family: Questrial-Regular;
@@ -315,15 +402,134 @@ form {
     line-height: 18px;
     font-weight: 500;
 }
-.edit-row{
+
+.edit-row {
     display: flex;
     border-bottom: solid 1px #00458b;
     justify-content: center;
     background-color: #d6f5f3;
 }
-/*.container{
-    min-height: 72vh;
-}*/
-svg:not(:root) {
-    display:none;
+
+.customer h1 {
+    margin-top: 50px;
+}
+
+.customer h4 {
+    width: 34%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.customer-form {
+    display: grid;
+    width: 400px;
+    margin: 80px auto;
+}
+
+.customer-form input {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.customer {
+    height: 70%;
+}
+
+.reg-form {
+    width: 50%;
+}
+
+.customer-content {
+    display: flex;
+}
+
+.big-img {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}
+
+.customer-input {
+    font-family: Questrial-Regular;
+    color: #00458B;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    min-height: 28px;
+    line-height: 28px;
+}
+
+.registration-form {
+    display: grid;
+    width: 400px;
+    margin: 80px auto;
+}
+
+.customer-content .edit-span {
+    padding: 0;
+}
+
+.customer-content select {
+    margin: 15px 0;
+}
+
+.customer-content p,
+.customer-content h4 {
+    text-align: center;
+}
+
+/*login*/
+.card {
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.no-gutters {
+    display: flex;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.no-gutters:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.col-md-6 {
+    width: 50%;
+    padding: 40px;
+}
+
+.login-card-img {
+    width: 100%;
+    display: block;
+}
+
+.atsijungti {
+    background-color: #f16c79;
+    font-family: Questrial-Regular;
+    color: #00458B;
+    padding: 0px 62px;
+    top: 5px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    min-height: 28px;
+    line-height: 28px;
+    text-decoration: none;
+    border: none;
+}
+
+#password-confirm,
+#email,
+.login-btn {
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: Questrial-Regular;
+    color: #00458B;
 }

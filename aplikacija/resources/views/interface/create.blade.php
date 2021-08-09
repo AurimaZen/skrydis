@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <a class="mygtukas sukurti"  href="{{ route('skrydis.index')  }}">
+    <a class="mygtukas sukurti" href="{{ route('skrydis.index')  }}">
         Atgal
     </a>
     <form class="edit-row" action="{{ route('skrydis.index') }}" method="POST">
@@ -19,7 +19,7 @@
         <span class="edit-span"><label for="busena">Skrydžio būsena: naujas | uzregistruotas | ivykdytas</label>
         <input type="text" name="busena" value=""></span>
 
-        <input  class="mygtukas" type="submit" value="Įrašyti">
+        <input class="mygtukas" type="submit" value="Įrašyti">
     </form>
 
 

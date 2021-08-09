@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-require __DIR__ . '/auth.php';
+//require __DIR__ . '/auth.php';
 Route::get('/', [TodoController::class, 'testas']);
 
 Route::get('/object', function () {
@@ -56,6 +56,17 @@ Route::resource('/flylocationdate', FlylocationDateController::class);
 Route::get('/customerregistration', [SkrydisController::class, 'registrationForm'])->name('registration.form');
 Route::post('/{skrydi}', [SkrydisController::class, 'skrydisUpdate'])->name('registration.update');
 
+Route::get('logout', function ()
+{
+    auth()->logout();
+    Session()->flush();
+
+    return Redirect::to('/login');
+})->name('logout');
+
+//Route::get('/skrydis', function () {
+//    return Illuminate\Support\Facades\Auth::user();
+//})->middleware(['auth', 'vertified']);
 
 Route::get('/todo', [TodoController::class, 'list'])->name('todo.list');
 Route::get('/todo{todoItem}/done', [TodoController::class, 'done'])->name('todo.done');

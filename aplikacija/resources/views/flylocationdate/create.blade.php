@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <a class="mygtukas sukurti"  href="{{ route('flylocationdate.index')}}">
+    <a class="mygtukas sukurti" href="{{ route('flylocationdate.index')}}">
         Atgal
     </a>
     <form class="edit-row" action="{{ route('flylocationdate.index') }}" method="POST">
@@ -24,7 +24,7 @@
         <span class="edit-span"><label for="busena">Skrydžio būsen: laisvas | uzrezervuotas </label>
         <input type="text" name="busena" value="laisvas" required></span>
 
-        <button  class="mygtukas" type="submit" value="Įrašyti">Įrašyti</button>
+        <button class="mygtukas" type="submit" value="Įrašyti">Įrašyti</button>
     </form>
 
 
