@@ -1,4 +1,5 @@
 # Skrydziai
+![image](https://user-images.githubusercontent.com/33114121/129035355-b37d2b7a-2102-4d9e-86c2-aec8f004113a.png) ![image](https://user-images.githubusercontent.com/33114121/129035391-fcd642fc-9f20-4085-a29d-d3f6a79bba3e.png) ![image](https://user-images.githubusercontent.com/33114121/129035436-255ba9db-4bdb-44f1-aaeb-ea0fe1e080cd.png) ![image](https://user-images.githubusercontent.com/33114121/129035473-0697f390-3f6d-491b-b9e0-aa74048c24dc.png)<br>
 <strong>My first laravel project for administration and registration of paragliding services.</strong><br><br>
 <it>This project is for practicing only.<it><br>
 Customer select the fly and creates record to database table, with unique fly number.
