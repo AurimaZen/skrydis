@@ -1,6 +1,6 @@
-# skrydziai
+# Skrydziai
 <strong>My first laravel project for administration and registration of paragliding services.</strong><br><br>
-This project is for practicing only.
+<it>This project is for practicing only.<it><br>
 Customer select the fly and creates record to database table, with unique fly number.
 ![image](https://user-images.githubusercontent.com/33114121/128753678-f9a1da4c-44ee-4b68-b205-2180965c7bc8.png)
 Customer can register to fly by unique number and updates database record with his data. Also he selects fly place and data from another data table.
